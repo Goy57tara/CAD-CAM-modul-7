@@ -1,0 +1,175 @@
+# 🔩 SolidWorks Mate – Penjelasan Lengkap
+
+Dokumen ini berisi penjelasan lengkap mengenai **Mate dalam SolidWorks**, termasuk jenis, fungsi, dan penerapannya dalam assembly.
+
+---
+
+# 📘 Pengertian Mate
+
+Mate adalah fitur pada SolidWorks yang digunakan untuk **mendefinisikan hubungan geometris antar part** sehingga posisi, orientasi, dan gerakan dapat dikontrol.
+
+👉 Dengan kata lain:  
+**Mate adalah aturan yang mengatur bagaimana komponen saling terhubung dalam assembly.**
+
+---
+
+# ⚙️ Standard Mates
+
+## 1. Coincident Mate
+**Fungsi:**
+- Menyatukan dua permukaan, garis, atau titik agar berada pada posisi yang sama
+
+**Efek:**
+- Menghilangkan jarak antar objek
+
+**Contoh:**
+- Permukaan baut menempel pada pelat
+
+---
+
+## 2. Parallel Mate
+**Fungsi:**
+- Membuat dua objek sejajar
+
+**Efek:**
+- Mengunci orientasi arah
+
+**Contoh:**
+- Dua pelat sejajar
+
+---
+
+## 3. Perpendicular Mate
+**Fungsi:**
+- Membuat dua objek tegak lurus (90°)
+
+**Contoh:**
+- Dinding dan lantai
+
+---
+
+## 4. Concentric Mate
+**Fungsi:**
+- Menyamakan sumbu dua objek berbentuk lingkaran/silinder
+
+**Efek:**
+- Mengunci posisi radial
+- Tetap memungkinkan rotasi
+
+**Contoh:**
+- Baut dengan lubang
+
+---
+
+## 5. Distance Mate
+**Fungsi:**
+- Mengatur jarak tertentu antar objek
+
+**Contoh:**
+- Jarak antar komponen mesin
+
+---
+
+## 6. Angle Mate
+**Fungsi:**
+- Mengatur sudut antar objek
+
+**Contoh:**
+- Lengan robot
+
+---
+
+# 🚀 Advanced Mates
+
+## 7. Limit Distance Mate
+**Fungsi:**
+- Membatasi gerakan dalam jarak minimum dan maksimum
+
+**Contoh:**
+- Gerakan piston
+
+---
+
+## 8. Limit Angle Mate
+**Fungsi:**
+- Membatasi sudut rotasi
+
+**Contoh:**
+- Engsel pintu
+
+---
+
+## 9. Symmetric Mate
+**Fungsi:**
+- Menjaga dua objek tetap simetris terhadap suatu plane
+
+**Contoh:**
+- Roda kiri dan kanan
+
+---
+
+## 10. Width Mate
+**Fungsi:**
+- Memposisikan objek di tengah dua permukaan
+
+**Contoh:**
+- Poros di tengah rangka
+
+---
+
+# ⚙️ Mechanical Mates
+
+## 11. Gear Mate
+**Fungsi:**
+- Menghubungkan dua gear dengan rasio tertentu
+
+---
+
+## 12. Rack and Pinion
+**Fungsi:**
+- Mengubah rotasi menjadi gerakan linear
+
+---
+
+## 13. Screw Mate
+**Fungsi:**
+- Menghubungkan rotasi dengan gerakan maju/mundur
+
+---
+
+## 14. Cam Mate
+**Fungsi:**
+- Mengontrol gerakan berdasarkan profil tertentu
+
+---
+
+# 🧠 Konsep Penting: Degrees of Freedom (DOF)
+
+Setiap objek memiliki:
+- 3 gerakan translasi (X, Y, Z)
+- 3 gerakan rotasi
+
+Mate digunakan untuk **mengurangi derajat kebebasan (DOF)** agar sistem menjadi stabil.
+
+---
+
+# ⚠️ Kesalahan Umum
+
+- Terlalu banyak mate (over-defined)
+- Salah memilih jenis mate
+- Tidak memahami hubungan gerakan
+
+---
+
+# 🎯 Kesimpulan
+
+Mate adalah elemen terpenting dalam assembly karena:
+- Mengatur posisi dan orientasi
+- Mengontrol gerakan
+- Membuat sistem menjadi realistis
+
+Tanpa mate, assembly tidak memiliki struktur yang jelas.
+
+---
+
+✍️ Dokumentasi pembelajaran CAD/CAM – SolidWorks Assembly
